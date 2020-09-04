@@ -1,0 +1,16 @@
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\eCommerce.Entities.dll.config
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\eCommerce.Entities.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\eCommerce.Entities.pdb
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\obj\Debug\eCommerce.Entities.csprojAssemblyReference.cache
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\obj\Debug\eCommerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\obj\Debug\eCommerce.Entities.csproj.CopyComplete
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\obj\Debug\eCommerce.Entities.dll
+C:\Users\Elxan\Desktop\TexnoGallery-3.4\Source Code\eCommerceMVC\eCommerce.Entities\obj\Debug\eCommerce.Entities.pdb

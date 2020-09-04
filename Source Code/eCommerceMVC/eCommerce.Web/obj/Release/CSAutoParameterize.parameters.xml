@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="eCommerceConnectionString_OK-Web.config Connection String" description="eCommerceConnectionString_OK Connection String used in web.config by the application to access the database." defaultValue="data source=sql5047.site4now.net;initial catalog=DB_A4F2AC_TexnoGallery;user id=DB_A4F2AC_TexnoGallery_admin;password=MahmudTexno2000;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Elxan\\Desktop\\TexnoGallery-3\.4\\Source\ Code\\eCommerceMVC\\eCommerce\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='eCommerceConnectionString_OK']/@connectionString" />
+  </parameter>
+  <parameter name="eCommerce.Data.eCommerceContext-Web.config Connection String" description="eCommerce.Data.eCommerceContext Connection String used in web.config by the application to access the database." defaultValue="eCommerce.Data.eCommerceContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Elxan\\Desktop\\TexnoGallery-3\.4\\Source\ Code\\eCommerceMVC\\eCommerce\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='eCommerce.Data.eCommerceContext']/@connectionString" />
+  </parameter>
+</parameters>

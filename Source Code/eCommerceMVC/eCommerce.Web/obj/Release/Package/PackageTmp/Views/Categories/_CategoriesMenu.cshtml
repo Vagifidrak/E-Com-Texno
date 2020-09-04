@@ -1,0 +1,52 @@
+﻿@model CategoriesMenuViewModel
+
+@if (Model != null && Model.CategoryWithChildrens != null && Model.CategoryWithChildrens.Count > 0)
+{
+    <div class="nav-depart" style="width:26%">
+        <div class="depart-btn">
+            <i class="fas fa-bars"></i>
+            <span>@("PP.Header.Menu.Categories".Localized())</span>
+            <ul class="depart-hover">
+                @foreach (var categoryWithChildren in Model.CategoryWithChildrens)
+                {
+                    var category = categoryWithChildren.Category;
+
+                    var currentLanguageCategoryRecord = category.CategoryRecords.FirstOrDefault(x => x.LanguageID == AppDataHelper.CurrentLanguage.ID);
+
+                    <li>
+                        <a href="@Url.SearchProducts(category.SanitizedName)">
+                            @(currentLanguageCategoryRecord != null ? currentLanguageCategoryRecord.Name : string.Empty)
+                        </a>
+
+                        @if (categoryWithChildren.Children != null && categoryWithChildren.Children.Count > 0)
+                        {
+                            <ul class="sub-menu d-flex flex-wrap">
+                                @foreach (var childCategory in categoryWithChildren.Children)
+                                {
+                                    var currentLanguageChildCategoryRecord = childCategory.CategoryRecords.FirstOrDefault(x => x.LanguageID == AppDataHelper.CurrentLanguage.ID);
+
+                                    <li>
+                                        <a href="@Url.SearchProducts(childCategory.SanitizedName)">
+                                            @(currentLanguageChildCategoryRecord != null ? currentLanguageChildCategoryRecord.Name : string.Empty)
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+@*<script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5dbd9d7ee4c2fa4b6bd9abe7/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+    })();*@

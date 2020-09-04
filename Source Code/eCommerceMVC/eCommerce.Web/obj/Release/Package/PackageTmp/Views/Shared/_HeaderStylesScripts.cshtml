@@ -1,0 +1,16 @@
+﻿@if (AppDataHelper.IsRTL)
+{
+    <link rel="icon" href="~/Content/images/site/logomini.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap" rel="stylesheet">
+
+    @Styles.Render("~/bundles/content/rtl/css")
+    @Scripts.Render("~/bundles/content/rtl/hscripts")
+}
+else
+{
+    <link rel="icon" href="~/Content/images/site/logomini.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap" rel="stylesheet">
+
+    @Styles.Render("~/bundles/content/css")
+    @Scripts.Render("~/bundles/content/hscripts")
+}

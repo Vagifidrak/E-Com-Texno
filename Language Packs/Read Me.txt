@@ -1,0 +1,8 @@
+Do the following to install the language packs. 
+
+1- Login to Admin Dashboard
+2- Click on Languages in Side Menu
+3- Click on the language you want to install language pack for, i.e English (currently I've only provided english and arabic language packs. I will describe how to create your own language pack in updated documentation)
+4- Scroll down to Resources section in language page. 
+5- select language pack file in import resources section and click on import resources.
+6- The language pack will be installed.

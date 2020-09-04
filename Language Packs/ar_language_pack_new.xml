@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+<Resource Key="PP.Menu" English="Menu" Value="القائمة" />
+<Resource Key="PP.Message.Success" English="Success!" Value="نجاح!" />
+<Resource Key="PP.Message.Warning" English="Warning!" Value="تحذير!" />
+<Resource Key="PP.Message.Error" English="Error!" Value="خطأ!" />
+<Resource Key="PP.Message.Thanks" English="Thanks" Value="شكر" />
+<Resource Key="PP.Message.GenericErrorMessage" English="An error has occurred." Value="حدث خطأ." />
+<Resource Key="PP.Message.OK" English="OK" Value="حسنا" />
+<Resource Key="PP.Header.SearchPlaceholder" English="What are you looking for?" Value="عما تبحث؟" />
+<Resource Key="PP.Header.Menu.HiUser" English="Hi {user}!" Value="مرحبا {user}!" />
+<Resource Key="PP.Header.Menu.Account" English="Account" Value="الحساب" />
+<Resource Key="PP.Header.Menu.Categories" English="Categories" Value="التصنيفات" />
+<Resource Key="PP.Header.Menu.Home" English="Home" Value="الصفحة الرئيسية" />
+<Resource Key="PP.Header.Menu.Products" English="Products" Value="منتجات" />
+<Resource Key="PP.Header.Menu.Tracking" English="Tracking" Value="تتبع" />
+<Resource Key="PP.Header.Menu.Checkout" English="Checkout" Value="الدفع" />
+<Resource Key="PP.Header.Menu.ShoppingCart" English="Cart" Value="عربة التسوق" />
+<Resource Key="PP.Header.Menu.Dashboard" English="Dashboard" Value="لوحة القيادة" />
+<Resource Key="PP.Header.Menu.Profile" English="Profile" Value="الملف الشخصي" />
+<Resource Key="PP.Header.Menu.LogOff" English="LogOff" Value="إطفاء" />
+<Resource Key="PP.Header.Menu.Login" English="Login" Value="تسجيل الدخول" />
+<Resource Key="PP.Footer.Information" English="Information" Value="معلومات" />
+<Resource Key="PP.Footer.Information.AboutUs" English="About Us" Value="معلومات عنا" />
+<Resource Key="PP.Footer.Information.ContactUs" English="Contact Us" Value="اتصل بنا" />
+<Resource Key="PP.Footer.Information.PrivacyPolicy" English="Privacy Policy" Value="سياسة الخصوصية" />
+<Resource Key="PP.Footer.Information.RefundPolicy" English="Refund Policy" Value="سياسة الاسترجاع" />
+<Resource Key="PP.Footer.Information.TermsAndConditions" English="Terms and Conditions" Value="الأحكام والشروط" />
+<Resource Key="PP.Footer.Account" English="Account" Value="الحساب" />
+<Resource Key="PP.Footer.Account.MyProfile" English="My Profile" Value="ملفي" />
+<Resource Key="PP.Footer.Account.MyOrders" English="My Orders" Value="طلباتي" />
+<Resource Key="PP.Footer.Account.TrackOrder" English="Track Order" Value="ترتيب المسار" />
+<Resource Key="PP.Footer.Account.MyCart" English="My Cart" Value="سلتي" />
+<Resource Key="PP.Footer.Account.Checkout" English="Checkout" Value="الدفع" />
+<Resource Key="PP.Footer.NewsLetter" English="Join our News Letter" Value="اشترك في صحيفتنا الإخبارية" />
+<Resource Key="PP.Footer.NewsLetter.GetOurEmailUpdates" English="Get email updates about our special offers." Value="الحصول على تحديثات البريد الإلكتروني حول العروض الخاصة." />
+<Resource Key="PP.Footer.NewsLetter.EnterYourEmailPlaceholder" English="Enter your email address." Value="أدخل عنوان بريدك الالكتروني." />
+<Resource Key="PP.Footer.NewsLetter.Subscribe" English="Subscribe" Value="الإشتراك" />
+<Resource Key="PP.Footer.CopyrightsMessage" English="{application} {date}. All rights reserved." Value="{application} {date}. كل الحقوق محفوظة." />
+<Resource Key="PP.Shopping.AddToCart" English="Add to cart" Value="أضف إلى السلة" />
+<Resource Key="PP.Shopping.ViewProduct" English="View" Value="رأي" />
+<Resource Key="PP.Shopping.NoProductsInCart" English="No Products in cart." Value="لا توجد منتجات في العربة." />
+<Resource Key="PP.Shopping.CartTotal" English="Cart Total" Value="العربة إجمالي" />
+<Resource Key="PP.Shopping.CartDetails" English="Cart Details" Value="تفاصيل العربة" />
+<Resource Key="PP.Shopping.Checkout" English="Checkout" Value="الدفع" />
+<Resource Key="PP.Shopping.ItemAddingToCart" English="Adding product to cart" Value="إضافة المنتج إلى سلة التسوق" />
+<Resource Key="PP.Shopping.ItemAddedToCart" English="Product added to cart." Value="وأضاف المنتج إلى سلة التسوق." />
+<Resource Key="PP.Shopping.CartItemQuantityUpdated" English="Product quantity updated." Value="كمية المنتج تجديد." />
+<Resource Key="PP.Shopping.ItemNotFound" English="Product not found." Value="الصنف غير موجود." />
+<Resource Key="PP.Home.Title" English="eCommerce Website in ASP .Net MVC" Value="موقع للتجارة الإلكترونية في ASP صافي MVC" />
+<Resource Key="PP.Home.Description" English="This demo ecommerce website is developed with ASP .Net MVC and C# as server side programming language. Check all the eCommerce features here." Value="تم تطوير هذا موقع للتجارة الإلكترونية تجريبي مع ASP صافي MVC وC # كلغة برمجة جانب الملقم. تحقق من كل ميزات التجارة الإلكترونية هنا." />
+<Resource Key="PP.Home.FeaturedCategories.BrowseCategoryProducts" English="Browse {category} products." Value="تصفح {category} المنتجات." />
+<Resource Key="PP.Home.FeaturedCategories.DiscoverMoreProducts" English="Discover More" Value="إكتشف أكثر" />
+<Resource Key="PP.Home.FeaturedCategories.Products.Featured" English="Featured" Value="متميز" />
+<Resource Key="PP.Home.SearchMoreProducts" English="Search More Products" Value="ابحث عن المزيد من المنتجات" />
+
+
+<Resource Key="PP.Home.Showcase.FastDelivery" English="Fast Delivery" Value="توصيل سريع" />
+<Resource Key="PP.Home.Showcase.OnTimeDelivery" English="100% Delivery on Time" Value="100٪ التسليم في الوقت المحدد" />
+<Resource Key="PP.Home.Showcase.247Support" English="24/7 Support" Value="دعم 24/7" />
+<Resource Key="PP.Home.Showcase.AlwaysReadyToHelp" English="Always Ready to Help" Value="دائما على استعداد للمساعدة" />
+<Resource Key="PP.Home.Showcase.SecurePayments" English="Secure Payments" Value="المدفوعات الآمنة" />
+<Resource Key="PP.Home.Showcase.SecurePaymentOptions" English="Secure Payment Options" Value="خيارات الدفع الآمنة" />
+<Resource Key="PP.Home.Showcase.OurPartners" English="Our Partners" Value="شركاؤنا" />
+
+<Resource Key="PP.Search.Title" English="Search Products on {application}" Value="البحث المنتجات على {application}" />
+<Resource Key="PP.Search.TitleWithCategory" English="Search {category} Products on {application}" Value="بحث {category} المنتجات على {application}" />
+<Resource Key="PP.Search.Description" English="This demo ecommerce website is developed with ASP .Net MVC and C# as server side programming language. Check all the eCommerce features here." Value="تم تطوير هذا موقع للتجارة الإلكترونية تجريبي مع ASP صافي MVC وC # كلغة برمجة جانب الملقم. تحقق من كل ميزات التجارة الإلكترونية هنا." />
+<Resource Key="PP.Search.SearchProducts" English="Search Products" Value="البحث عن المنتجات" />
+<Resource Key="PP.Search.SearchProductsPlaceholder" English="Search Products" Value="البحث عن المنتجات" />
+<Resource Key="PP.Search.Categories" English="Categories" Value="التصنيفات" />
+<Resource Key="PP.Search.Categories.AllCategories" English="All Categories" Value="جميع الفئات" />
+<Resource Key="PP.Search.PriceRange" English="Price Range" Value="نطاق السعر" />
+<Resource Key="PP.Search.Filter" English="Filter" Value="منقي" />
+<Resource Key="PP.Search.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="PP.Search.SortBy" English="Sort By: {sortby}" Value="الترتيب حسب: {sortby}" />
+<Resource Key="PP.Search.SortBy.LatestProducts" English="Latest Products" Value="أحدث المنتجات" />
+<Resource Key="PP.Search.SortBy.PriceLowToHigh" English="Price - Low to High" Value="السعر من الارخص للاعلى" />
+<Resource Key="PP.Search.SortBy.PriceHighToLow" English="Price - High to Low" Value="السعر الاعلى الى الادنى" />
+<Resource Key="PP.Search.ShowNoOfProduct" English="Show {number} Products" Value="عرض {number} المنتجات" />
+<Resource Key="PP.Search.ShowingProductRange" English="Showing {startingIndex} to {endingIndex} of {total}" Value="عرض {startingIndex} إلى {endingIndex} من {total}" />
+<Resource Key="PP.Search.Products.Featured" English="Featured" Value="متميز" />
+<Resource Key="PP.Search.ProductsNotFound" English="Sorry! No products found." Value="آسف! لم يتم العثور على المنتجات." />
+<Resource Key="PP.ProductDetails.AverageRatingCount" English="Average Rating: {averageRating} Stars from {totalComments} comments" Value="متوسط ​​التقييم: {averageRating} نجوم من {totalComments} تعليقات" />
+<Resource Key="PP.ProductDetails.Description" English="Description" Value="وصف" />
+<Resource Key="PP.ProductDetails.ProductSpecifications" English="Product Specifications" Value="مواصفات المنتج" />
+<Resource Key="PP.ProductDetails.Reviews" English="Reviews" Value="التعليقات" />
+<Resource Key="PP.ProductDetails.Comment" English="Comment" Value="تعليق" />
+<Resource Key="PP.ProductDetails.Comments" English="Comments" Value="تعليقات" />
+<Resource Key="PP.ProductDetails.UserRating" English="User Rating: {commentRating}" Value="التقييم: {commentRating}" />
+<Resource Key="PP.ProductDetails.NoCommentsOnProduct" English="There are no comments on this products. Be the first to comment on it." Value="لا توجد تعليقات على هذه المنتجات. كن أول من يعلق عليها." />
+<Resource Key="PP.ProductDetails.LeaveComment" English="Leave a Comment" Value="اترك تعليقا" />
+<Resource Key="PP.ProductDetails.YourRating" English="Your Rating" Value="تقييمك" />
+<Resource Key="PP.ProductDetails.Star" English="Star" Value="نجمة" />
+<Resource Key="PP.ProductDetails.CommentPlaceholder" English="Write your comment." Value="حسابك على إكبس للتعليق." />
+<Resource Key="PP.ProductDetails.LeaveYourComment" English="Leave Comment" Value="اترك تعليقا" />
+<Resource Key="PP.ProductDetails.LoginToComment" English="You need to login to leave comments." Value="تحتاج إلى تسجيل الدخول لترك تعليق." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextRequired" English="Please add a valid comment." Value="الرجاء إضافة تعليق صالح." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextMinLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="PP.ProductDetails.Comments.Validations.TextMaxLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="PP.ProductDetails.Comments.Validations.EntityRequired" English="Comment type not identified." Value="نوع تعليق لم تحدد." />
+<Resource Key="PP.ProductDetails.Comments.Validations.RecordIDRequired" English="Comment Record not identified." Value="تعليق سجل لم تحدد." />
+<Resource Key="PP.ProductDetails.CommentDeleteWarning" English="Are you sure you want to delete this comment?" Value="هل أنت متأكد أنك تريد حذف هذا التعليق؟" />
+<Resource Key="PP.ProductDetails.CommentDeleteConfirm" English="Yes, delete it!" Value="نعم، حذفه!" />
+<Resource Key="PP.ProductDetails.CommentDeleteCancel" English="No, Dont delete." Value="لا، لا أميل حذف." />
+<Resource Key="PP.ProductDetails.Comments.Validations.NotAuthorizedToDeleteComment" English="You are not authorzed to delete this comment." Value="انك لم authorzed حذف هذا التعليق." />
+<Resource Key="PP.ProductDetails.Comments.Validations.UnableToDeleteComment" English="Unable to delete comment." Value="غير قادر على حذف تعليق." />
+<Resource Key="PP.ProductDetails.FeaturedProducts" English="Featured Products" Value="منتجات مميزة" />
+<Resource Key="PP.ProductDetails.RelatedProducts" English="Related Products" Value="منتجات ذات صله" />
+<Resource Key="PP.ProductDetails.RelatedProductsFeatured" English="Featured" Value="متميز" />
+<Resource Key="PP.Tracking.Title" English="Track Order" Value="ترتيب المسار" />
+<Resource Key="PP.Tracking.Description" English="You can check the status of your order. Please enter the order ID and you will get information related to your order." Value="يمكنك التحقق من حالة طلبك. الرجاء إدخال معرف النظام وستحصل على معلومات تتعلق طلبك." />
+<Resource Key="PP.Tracking.OrderID" English="Order ID" Value="رقم التعريف الخاص بالطلب" />
+<Resource Key="PP.Tracking.OrderIDPlaceholder" English="Enter Order ID to track" Value="أدخل معرف طلب إلى المسار" />
+<Resource Key="PP.Tracking.TrackOrder" English="Track Order" Value="ترتيب المسار" />
+<Resource Key="PP.Tracking.OrderPlacedSuccessMessage" English="Thank You. Your order has been placed. You can access your order details anytime in your orders section in profile." Value="شكرا جزيلا. وقد وضعت طلبك. يمكنك الوصول إلى تفاصيل طلبك في أي وقت في قسم الطلبات الخاصة بك في الملف الشخصي." />
+<Resource Key="PP.Tracking.PrintInvoice" English="Print Invoice" Value="فاتورة طباعة" />
+<Resource Key="PP.Tracking.OrderStatus" English="Order Status" Value="حالة الطلب" />
+<Resource Key="PP.Tracking.OrderStatus.Placed" English="Placed" Value="وضعت" />
+<Resource Key="PP.Tracking.OrderStatus.Processing" English="Processing" Value="معالجة" />
+<Resource Key="PP.Tracking.OrderStatus.Delivered" English="Delivered" Value="تم التوصيل" />
+<Resource Key="PP.Tracking.OrderStatus.Failed" English="Failed" Value="فشل" />
+<Resource Key="PP.Tracking.OrderStatus.Cancelled" English="Cancelled" Value="ألغيت" />
+<Resource Key="PP.Tracking.OrderStatus.OnHold" English="OnHold" Value="في الانتظار" />
+<Resource Key="PP.Tracking.OrderStatus.WaitingForPayment" English="Waiting For Payment" Value="في انتظار الدفع" />
+<Resource Key="PP.Tracking.OrderStatus.Refunded" English="Refunded" Value="ردها" />
+<Resource Key="PP.Tracking.PaymentMethod" English="Payment Method" Value="طريقة الدفع او السداد" />
+<Resource Key="PP.Tracking.PaymentMethods.CreditCard" English="Credit Card" Value="بطاقة الائتمان" />
+<Resource Key="PP.Tracking.PaymentMethods.PayPal" English="PayPal" Value="باي بال" />
+<Resource Key="PP.Tracking.PaymentMethods.CashOnDelivery" English="Cash On Delivery" Value="الدفع عند الاستلام" />
+<Resource Key="PP.Tracking.Date" English="Date" Value="تاريخ" />
+<Resource Key="PP.Tracking.UpdatedOn" English="Updated On" Value="تحديث في" />
+<Resource Key="PP.Tracking.OrderUniqueCode" English="Order Unique Code" Value="ترتيب مدونة فريدة من نوعها" />
+<Resource Key="PP.Tracking.OrderDetails" English="Order Details" Value="تفاصيل الطلب" />
+<Resource Key="PP.Tracking.Item" English="Item" Value="بند" />
+<Resource Key="PP.Tracking.Price" English="Price" Value="السعر" />
+<Resource Key="PP.Tracking.Quantity" English="Quantity" Value="كمية" />
+<Resource Key="PP.Tracking.Total" English="Total" Value="مجموع" />
+<Resource Key="PP.Tracking.SubTotal" English="Sub Total" Value="المجموع الفرعي" />
+<Resource Key="PP.Tracking.Discount" English="Discount" Value="خصم" />
+<Resource Key="PP.Tracking.ShippingCharges" English="Shipping Charges" Value="رسوم الشحن" />
+<Resource Key="PP.Tracking.DeliveryCharges" English="Delivery Charges" Value="رسوم التوصيل" />
+<Resource Key="PP.Tracking.FinalTotal" English="Final Total" Value="المجموع النهائي" />
+<Resource Key="PP.Tracking.PromoApplied" English="Promo Applied {promocode}." Value="الترويجي التطبيقية {promocode}." />
+<Resource Key="PP.Tracking.ContactDetails" English="Contact Details" Value="بيانات المتصل" />
+<Resource Key="PP.Tracking.CustomerName" English="Customer Name" Value="اسم الزبون" />
+<Resource Key="PP.Tracking.CustomerEmail" English="Customer Email" Value="العملاء البريد الإلكتروني" />
+<Resource Key="PP.Tracking.CustomerPhone" English="Customer Phone" Value="الهاتف العملاء" />
+<Resource Key="PP.Tracking.GuestOrder" English="Guest Order" Value="ترتيب الضيوف" />
+<Resource Key="PP.Tracking.ShippingDetails" English="Shipping Details" Value="تفاصيل الشحن" />
+<Resource Key="PP.Tracking.ShippingCountry" English="Country" Value="بلد" />
+<Resource Key="PP.Tracking.ShippingCity" English="City" Value="مدينة" />
+<Resource Key="PP.Tracking.ShippingAddress" English="Address" Value="عنوان" />
+<Resource Key="PP.Tracking.ShippingZipCode" English="Zip Code" Value="الرمز البريدي" />
+<Resource Key="PP.Tracking.OrderHistory" English="Order History" Value="تاريخ الطلب" />
+<Resource Key="PP.Tracking.OrderTrackingNotAccessible" English="Sorry! you can not check this order details." Value="آسف! لا يمكنك التحقق من ذلك تفاصيل النظام." />
+<Resource Key="PP.Tracking.OrderCantBeTracked" English="Sorry! We can not track your order details." Value="آسف! لا يمكننا تتبع تفاصيل طلبك." />
+<Resource Key="PP.Cart.Title" English="Your Shopping Cart" Value="سلة التسوق الخاصة بك" />
+<Resource Key="PP.Cart.Description" English="Details of your shopping cart." Value="تفاصيل سلة التسوق الخاصة بك." />
+<Resource Key="PP.Cart.ItemImage" English="Image" Value="صورة" />
+<Resource Key="PP.Cart.ItemName" English="Item" Value="بند" />
+<Resource Key="PP.Cart.ItemPrice" English="Price" Value="السعر" />
+<Resource Key="PP.Cart.ItemQuantity" English="Quantity" Value="كمية" />
+<Resource Key="PP.Cart.ItemTotal" English="Total" Value="مجموع" />
+<Resource Key="PP.Cart.RemoveItem" English="Remove Item" Value="إزالة بند" />
+<Resource Key="PP.Cart.EnterPromoCode" English="Enter Voucher/Promo Code" Value="أدخل قسيمة / الرمز الترويجي" />
+<Resource Key="PP.Cart.ApplyPromo" English="Apply" Value="تطبيق" />
+<Resource Key="PP.Cart.PromoAppliedSuccessfully" English="Success. Enjoy discount of {discount}." Value="نجاح. تمتع بخصم من {discount}." />
+<Resource Key="PP.Cart.PromoExpired" English="Sorry. This promo/voucher has expired." Value="آسف. انتهت صلاحية هذا الترويجي / قسيمة." />
+<Resource Key="PP.Cart.InvalidPromo" English="Invalid promo/voucher." Value="الترويجي صالح / قسيمة." />
+<Resource Key="PP.Cart.UpdateCart" English="Update Cart" Value="تحديث العربة" />
+<Resource Key="PP.Cart.ContinueShopping" English="Continue Shopping" Value="مواصلة التسوق" />
+<Resource Key="PP.Cart.SubTotal" English="Sub Total" Value="المجموع الفرعي" />
+<Resource Key="PP.Cart.Discount" English="Discount" Value="خصم" />
+<Resource Key="PP.Cart.ShippingCharges" English="Shipping Charges" Value="رسوم الشحن" />
+<Resource Key="PP.Cart.Total" English="Final Total" Value="المجموع النهائي" />
+<Resource Key="PP.Cart.ProceedToCheckout" English="Process to Checkout" Value="عملية الخروج" />
+<Resource Key="PP.Checkout.Title" English="Checkout" Value="الدفع" />
+<Resource Key="PP.Checkout.Description" English="Checkout with your shopping cart products." Value="الخروج مع المنتجات سلة التسوق الخاصة بك." />
+<Resource Key="PP.Checkout.ContactDetails" English="Contact Details" Value="بيانات المتصل" />
+<Resource Key="PP.Checkout.ShippingDetails" English="Shipping Details" Value="تفاصيل الشحن" />
+<Resource Key="PP.Checkout.Payment" English="Payment" Value="دفع" />
+<Resource Key="PP.Checkout.YourOrder" English="YourOrder" Value="طلبك" />
+<Resource Key="PP.Checkout.Product" English="Product" Value="المنتج" />
+<Resource Key="PP.Checkout.Total" English="Total" Value="مجموع" />
+<Resource Key="PP.Checkout.ItemQuantity" English="Quantity" Value="كمية" />
+<Resource Key="PP.Checkout.SubTotal" English="Sub Total" Value="المجموع الفرعي" />
+<Resource Key="PP.Checkout.Discount" English="Discount" Value="خصم" />
+<Resource Key="PP.Checkout.PromoApplied" English="Promo Applied: {promocode}" Value="الترويجي التطبيقية: {promocode}" />
+<Resource Key="PP.Checkout.HavePromoApplyHere" English="Have a promo? Apply here." Value="هل لديك الترويجي؟ قدم هنا." />
+<Resource Key="PP.Checkout.ShippingCharges" English="Shipping Charges" Value="رسوم الشحن" />
+<Resource Key="PP.Checkout.Total" English="Total" Value="مجموع" />
+<Resource Key="PP.Checkout.ModifyCartItemsHere" English="Modify cart items here." Value="تعديل البنود عربة هنا." />
+<Resource Key="PP.Checkout.NoProductsInCart" English="No products in the cart. Please add some products in cart." Value="لا توجد منتجات في العربة. الرجاء إضافة بعض المنتجات في العربة." />
+<Resource Key="PP.Checkout.FullName" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="PP.Checkout.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="PP.Checkout.PhoneNumber" English="Phone Number" Value="رقم الهاتف" />
+<Resource Key="PP.Checkout.CreateAccount" English="Create an account?" Value="انشئ حساب؟" />
+<Resource Key="PP.Checkout.AlreadyHaveAccount" English="Already have an account? Login." Value="هل لديك حساب؟ تسجيل الدخول." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameRequired" English="Full Name is required." Value="الإسم الكامل ضروري." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.FullNameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.ProvideValidEmail" English="Provide a valid email address." Value="تقديم عنوان بريد إلكتروني صحيح." />
+<Resource Key="PP.Checkout.CreateAccount.Validations.EmailRequired" English="Email is required" Value="البريد الالكتروني مطلوب" />
+<Resource Key="PP.Checkout.Country" English="Country" Value="بلد" />
+<Resource Key="PP.Checkout.City" English="City" Value="مدينة" />
+<Resource Key="PP.Checkout.Address" English="Address" Value="عنوان" />
+<Resource Key="PP.Checkout.ZipCode" English="Zip Code" Value="الرمز البريدي" />
+<Resource Key="PP.Checkout.Shipping.Validations.CountryRequired" English="Country is required." Value="الدولة مطلوبة." />
+<Resource Key="PP.Checkout.Shipping.Validations.CityRequired" English="City is required." Value="مطلوب المدينة." />
+<Resource Key="PP.Checkout.Shipping.Validations.AddressRequired" English="Address is required." Value="العنوان مطلوب." />
+<Resource Key="PP.Checkout.Shipping.Validations.ZipCodeRequired" English="Zip Code is required." Value="الرمز البريدي هو مطلوب." />
+<Resource Key="PP.Checkout.PayViaCreditCard" English="Pay via Credit Card" Value="الدفع عن طريق بطاقة الائتمان" />
+<Resource Key="PP.Checkout.CardHolderName" English="Card Holders Name" Value="اسم حامل البطاقة" />
+<Resource Key="PP.Checkout.CardNumber" English="Card Number" Value="رقم البطاقة" />
+<Resource Key="PP.Checkout.CardExpiryDate" English="Card Expiry Date" Value="تاريخ انتهاء صلاحية البطاقة" />
+<Resource Key="PP.Checkout.CardExpiryMonth" English="Card Expiry Month" Value="بطاقة انتهاء شهر" />
+<Resource Key="PP.Checkout.CardExpiryYear" English="Card Expiry Year" Value="بطاقة انتهاء السنة" />
+<Resource Key="PP.Checkout.CardCVC" English="CVC" Value="CVC" />
+<Resource Key="PP.Checkout.CardInfoNotSaved" English="Rest assured that we do not store your credit card details on our servers." Value="وتأكدوا أننا لا تخزين تفاصيل بطاقة الائتمان الخاصة بك على خوادمنا." />
+<Resource Key="PP.Checkout.CardPayNow" English="Pay Now" Value="ادفع الآن" />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardHolderNameRequired" English="Card Holders Name is required." Value="حاملي بطاقات مطلوب اسم." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberRequired" English="Card Number is required." Value="مطلوب رقم البطاقة." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardNumberMustBeValid" English="Card Number must be valid." Value="يجب أن يكون رقم بطاقة صالح." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryMonthRequired" English="Card Expiry Month is required." Value="مطلوب بطاقة انتهاء شهر." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CardExpiryYearRequired" English="Card Expiry Year is required." Value="مطلوب بطاقة انتهاء السنة." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CVCRequired" English="CVC number is required." Value="مطلوب CVC العدد." />
+<Resource Key="PP.Checkout.CreditCard.Validations.CVCMustBeValid" English="CVC must be numeric." Value="يجب أن يكون CVC الرقمية." />
+<Resource Key="PP.Checkout.PayViaCashOnDelivery" English="Pay via Cash on Delivery" Value="الدفع عن طريق الدفع النقدي عند التسليم" />
+<Resource Key="PP.Checkout.PlaceOrder" English="Place Order" Value="مكان الامر" />
+<Resource Key="PP.Checkout.PayViaPayPal" English="Pay via PayPal" Value="الدفع عن طريق PayPal" />
+<Resource Key="PP.Checkout.PayPalAmountNote" English="You will pay '{amount}' in {currency} via PayPal." Value="سوف تدفع '{amount}' في {currency} عبر PayPal." />
+<Resource Key="PP.Checkout.PayPal.ConfirmOrderAgain" English="Confirm Order" Value="أكد الطلب" />
+<Resource Key="PP.Checkout.Validations.PayPalOrderIssue" English="PayPal order details not found." Value="لم يتم العثور على تفاصيل طلب PayPal." />
+<Resource Key="PP.Checkout.Validations.PleaseCompleteRequiredFields" English="Please complete the required fields." Value="يرجى تعبئة الحقول المطلوبة." />
+<Resource Key="PP.Checkout.OrderPlacedSuccessfully" English="Your order has been placed successfuly." Value="وقد وضعت طلبك بنجاح." />
+<Resource Key="PP.Register.Title" English="Register Account" Value="تسجيل حساب" />
+<Resource Key="PP.Register.Description" English="Register your account on {application}." Value="تسجيل حسابك في {application}." />
+<Resource Key="PP.Register.FullName" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="PP.Register.FullNamePlaceholder" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="PP.Register.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="PP.Register.EmailPlaceholder" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="PP.Register.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.Register.UsernamePlaceholder" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.Register.Password" English="Password" Value="كلمه السر" />
+<Resource Key="PP.Register.PasswordPlaceholder" English="Password" Value="كلمه السر" />
+<Resource Key="PP.Register.ConfirmPassword" English="Confirm Password" Value="تأكيد كلمة المرور" />
+<Resource Key="PP.Register.ConfirmPasswordPlaceholder" English="Confirm Password" Value="تأكيد كلمة المرور" />
+<Resource Key="PP.Register.RegisterAccount" English="Register" Value="تسجيل" />
+<Resource Key="PP.Register.LoginAccount" English="Or Login With Existing Account" Value="أو الدخول مع حساب موجود" />
+<Resource Key="PP.Register.Validation.FullNameRequired" English="Full Name is required." Value="الإسم الكامل ضروري." />
+<Resource Key="PP.Register.Validation.UsernameRequired" English="Username is required." Value="اسم المستخدم مطلوب." />
+<Resource Key="PP.Register.Validation.EmailRequired" English="Email is required." Value="البريد الالكتروني مطلوب." />
+<Resource Key="PP.Register.Validation.EmailFormat" English="Please provide a valid email." Value="يرجى تقديم عنوان بريد إلكتروني صالح." />
+<Resource Key="PP.Register.Validation.PasswordRequired" English="Password is required." Value="كلمة المرور مطلوبة." />
+<Resource Key="PP.Register.Validation.ConfirmPasswordRequired" English="Confirm Password is required." Value="تأكيد كلمة المرور مطلوب." />
+<Resource Key="PP.Register.Validation.PasswordNotMatched" English="Password and Confirm Password not matched." Value="كلمة المرور وتأكيد كلمة المرور لا تتطابق." />
+<Resource Key="PP.Login.Title" English="Account Login" Value="تسجل الدخول" />
+<Resource Key="PP.Login.Description" English="Login to your account on {application}." Value="تسجيل الدخول إلى حسابك على {application}." />
+<Resource Key="PP.Login.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.Login.UsernamePlaceholder" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.Login.Password" English="Password" Value="كلمه السر" />
+<Resource Key="PP.Login.PasswordPlaceholder" English="Password" Value="كلمه السر" />
+<Resource Key="PP.Login.RememberMe" English="Remember Me" Value="تذكرنى" />
+<Resource Key="PP.Login.ForgotPassword" English="Forgot Your Password?" Value="نسيت رقمك السري؟" />
+<Resource Key="PP.Login.LoginAccount" English="Login" Value="تسجيل الدخول" />
+<Resource Key="PP.Login.RegisterAccount" English="Or Register New Account" Value="أو تسجيل حساب جديد" />
+<Resource Key="PP.Login.Validation.UsernameRequired" English="Please enter your accout username." Value="الرجاء إدخال اسم المستخدم الخاص بك تعاطيه." />
+<Resource Key="PP.Login.Validation.PasswordRequired" English="Please enter your accout password." Value="الرجاء إدخال كلمة المرور الخاصة بك تعاطيه." />
+<Resource Key="PP.Login.Validation.InvalidLoginAttempt" English="Invalid login attempt." Value="محاولة تسجيل الدخول غير صالحة." />
+<Resource Key="PP.Login.Validation.LockedOut" English="You are locked out." Value="كنت تأمين." />
+<Resource Key="PP.ForgotPassword.Title" English="Forgot Password" Value="هل نسيت كلمة المرور" />
+<Resource Key="PP.ForgotPassword.Description" English="Recover your {application} account." Value="استعادة حساب {application} الخاص بك." />
+<Resource Key="PP.ForgotPassword.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.ForgotPassword.UsernamePlaceholder" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.ForgotPassword.Validation.UsernameRequired" English="Username is required." Value="اسم المستخدم مطلوب." />
+<Resource Key="PP.ForgotPassword.RecoverAccount" English="Recover Account" Value="استعادة حساب" />
+<Resource Key="PP.ForgotPassword.PasswordResetEmailSuccess" English="Please check your email. A password reset link has been sent to your accounts email." Value="تفقد بريدك الالكتروني من فضلك. تم إرسال رابط إعادة تعيين كلمة المرور إلى البريد الإلكتروني حساباتك." />
+<Resource Key="PP.ResetPassword.Title" English="Reset Password" Value="إعادة تعيين كلمة المرور" />
+<Resource Key="PP.ResetPassword.Description" English="Reset password for your account on {application}." Value="إعادة تعيين كلمة المرور لحسابك على {application}." />
+<Resource Key="PP.ResetPassword.Password" English="Password" Value="كلمه السر" />
+<Resource Key="PP.ResetPassword.PasswordPlaceholder" English="Password" Value="كلمه السر" />
+<Resource Key="PP.ResetPassword.ConfirmPassword" English="Confirm Password" Value="تأكيد كلمة المرور" />
+<Resource Key="PP.ResetPassword.ConfirmPasswordPlaceholder" English="Confirm Password" Value="تأكيد كلمة المرور" />
+<Resource Key="PP.ResetPassword.ResetPassword" English="Reset Password" Value="إعادة تعيين كلمة المرور" />
+<Resource Key="PP.ResetPassword.LoginAccount" English="Login to Account" Value="تسجيل الدخول إلى حسابك" />
+<Resource Key="PP.ResetPassword.Validation.PasswordRequired" English="Password is required." Value="كلمة المرور مطلوبة." />
+<Resource Key="PP.ResetPassword.Validation.ConfirmPasswordRequired" English="Confirm Password is required." Value="تأكيد كلمة المرور مطلوب." />
+<Resource Key="PP.ResetPassword.Validation.PasswordNotMatched" English="Password and Confirm Password not matched." Value="كلمة المرور وتأكيد كلمة المرور لا تتطابق." />
+<Resource Key="PP.UserProfile.Title" English="User Profile" Value="ملف تعريفي للمستخدم" />
+<Resource Key="PP.UserProfile.Description" English="Review your profile and related data on {application}." Value="مراجعة ملف التعريف الخاص بك والبيانات ذات الصلة {application}." />
+<Resource Key="PP.UserProfile.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.UserProfile.Info" English="Info" Value="معلومات" />
+<Resource Key="PP.UserProfile.ChangePassword" English="Change Password" Value="تغيير كلمة المرور" />
+<Resource Key="PP.UserProfile.ChangeAvatar" English="Change Avatar" Value="تغيير الصورة الرمزية" />
+<Resource Key="PP.UserProfile.Orders" English="Orders" Value="الطلبات" />
+<Resource Key="PP.UserProfile.Comments" English="Comments" Value="تعليقات" />
+<Resource Key="PP.UserProfile.Info.FullName" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="PP.UserProfile.Info.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="PP.UserProfile.Info.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="PP.UserProfile.Info.PhoneNumber" English="Phone Number" Value="رقم الهاتف" />
+<Resource Key="PP.UserProfile.Info.Country" English="Country" Value="بلد" />
+<Resource Key="PP.UserProfile.Info.City" English="City" Value="مدينة" />
+<Resource Key="PP.UserProfile.Info.Address" English="Address" Value="عنوان" />
+<Resource Key="PP.UserProfile.Info.ZipCode" English="Zip Code" Value="الرمز البريدي" />
+<Resource Key="PP.UserProfile.Info.UpdateInfo" English="Update Info" Value="تحديث المعلومات" />
+<Resource Key="PP.UserProfile.Info.UserInfoUpdated" English="User info updated." Value="معلومات المستخدم تجديد." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameRequired" English="Full Name is required." Value="الإسم الكامل ضروري." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameMin" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="PP.UserProfile.Info.Validations.FullNameMax" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="PP.UserProfile.Info.Validations.EmailFormat" English="Please provide a valid email." Value="يرجى تقديم عنوان بريد إلكتروني صالح." />
+<Resource Key="PP.UserProfile.Info.Validations.EmailRequired" English="Email address is required." Value="مطلوب عنوان البريد الإلكتروني." />
+<Resource Key="PP.UserProfile.Info.Validations.UsernameRequired" English="Username is required." Value="اسم المستخدم مطلوب." />
+<Resource Key="PP.UserProfile.Info.Validations.CountryRequired" English="Country is required." Value="الدولة مطلوبة." />
+<Resource Key="PP.UserProfile.Info.Validations.CityRequired" English="City is required." Value="مطلوب المدينة." />
+<Resource Key="PP.UserProfile.Info.Validations.AddressRequired" English="Address is required." Value="العنوان مطلوب." />
+<Resource Key="PP.UserProfile.Info.Validations.ZipCodeRequired" English="Zip Code is required." Value="الرمز البريدي هو مطلوب." />
+<Resource Key="PP.UserProfile.ChangePassword.CurrentPassword" English="Current Password" Value="كلمة المرور الحالي" />
+<Resource Key="PP.UserProfile.ChangePassword.NewPassword" English="New Password" Value="كلمة السر الجديدة" />
+<Resource Key="PP.UserProfile.ChangePassword.ConfirmPassword" English="Confirm Password" Value="تأكيد كلمة المرور" />
+<Resource Key="PP.UserProfile.ChangePassword.UpdatePassword" English="Update Password" Value="تطوير كلمة السر" />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.OldPasswordRequired" English="Old Password is required." Value="مطلوب كلمة السر القديمة." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.NewPasswordRequired" English="New Password is required." Value="مطلوب كلمة المرور الجديدة." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.ConfirmPasswordRequired" English="Confirm Password is required." Value="تأكيد كلمة المرور مطلوب." />
+<Resource Key="PP.UserProfile.ChangePassword.Validations.PasswordsNotMatched" English="New Password and Confirm Password are not matched." Value="لا تتم مطابقة كلمة المرور الجديدة وتأكيد كلمة المرور." />
+<Resource Key="PP.UserProfile.ChangePassword.PasswordsUpdated" English="Password updated successfully." Value="تم تحديث كلمة السر بنجاح." />
+<Resource Key="PP.UserProfile.ChangeAvatar.Avatar" English="Avatar" Value="الصورة الرمزية" />
+<Resource Key="PP.UserProfile.ChangeAvatar.SelectAvatar" English="Select Avatar" Value="اختر الرمزية" />
+<Resource Key="PP.UserProfile.ChangeAvatar.UpdateAvatar" English="Update Avatar" Value="تحديث الرمزية" />
+<Resource Key="PP.UserProfile.ChangeAvatar.AvatarUpdated" English="Avatar updated successfully." Value="الصورة الرمزية تحديثها بنجاح." />
+<Resource Key="PP.UserProfile.ChangeAvatar.Validations.SelectAvatar" English="Please select a picture." Value="يرجى تحديد صورة." />
+<Resource Key="PP.UserProfile.UserOrders.OrderIDPlaceholder" English="Search by Order ID" Value="البحث عن طريق ترتيب ID" />
+<Resource Key="PP.UserProfile.UserOrders.SelectByOrderStatus" English="Select by Order Status…" Value="الاختيار عن طريق ترتيب أوضاع ..." />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Placed" English="Placed" Value="وضعت" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Processing" English="Processing" Value="معالجة" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Delivered" English="Delivered" Value="تم التوصيل" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Failed" English="Failed" Value="فشل" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Cancelled" English="Cancelled" Value="ألغيت" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.OnHold" English="OnHold" Value="في الانتظار" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.WaitingForPayment" English="Waiting For Payment" Value="في انتظار الدفع" />
+<Resource Key="PP.UserProfile.UserOrders.OrderStatus.Refunded" English="Refunded" Value="ردها" />
+<Resource Key="PP.UserProfile.UserOrders.SearchOrders" English="Search" Value="بحث" />
+<Resource Key="PP.UserProfile.UserOrders.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="PP.UserProfile.UserOrders.OrderID" English="Order ID" Value="رقم التعريف الخاص بالطلب" />
+<Resource Key="PP.UserProfile.UserOrders.PlacedOnDate" English="Placed On Date" Value="وضعت على تاريخ" />
+<Resource Key="PP.UserProfile.UserOrders.OrderAmount" English="Order Amount" Value="كمية الطلب" />
+<Resource Key="PP.UserProfile.UserOrders.Status" English="Status" Value="الحالة" />
+<Resource Key="PP.UserProfile.UserOrders.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="PP.UserProfile.UserOrders.UpdatedOn" English="Updated On" Value="تحديث في" />
+<Resource Key="PP.UserProfile.UserOrders.Track" English="Track" Value="مسار" />
+<Resource Key="PP.UserProfile.UserOrders.Previous" English="Previous" Value="السابق" />
+<Resource Key="PP.UserProfile.UserOrders.Next" English="Next" Value="التالى" />
+<Resource Key="PP.UserProfile.UserOrders.NoOrdersFound" English="No Orders found." Value="لم يتم العثور على أية طلبات." />
+<Resource Key="PP.UserProfile.UserComments.SearchCommentsPlaceholder" English="Search in Comments" Value="بحث في تعليقات" />
+<Resource Key="PP.UserProfile.UserComments.SearchComments" English="Search" Value="بحث" />
+<Resource Key="PP.UserProfile.UserComments.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="PP.UserProfile.UserComments.CommentUserName" English="{user}" Value="{user}" />
+<Resource Key="PP.UserProfile.UserComments.CommentTimestamp" English="{datetime}" Value="{datetime}" />
+<Resource Key="PP.UserProfile.UserComments.DeleteComment" English="Delete Comment" Value="حذف تعليق" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteWarning" English="Are you sure you want to delete this comment?" Value="هل أنت متأكد أنك تريد حذف هذا التعليق؟" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteConfirm" English="Yes, delete it!" Value="نعم، حذفه!" />
+<Resource Key="PP.UserProfile.UserComments.CommentDeleteCancel" English="No, Dont delete." Value="لا، لا أميل حذف." />
+<Resource Key="PP.UserProfile.UserComments.Previous" English="Previous" Value="السابق" />
+<Resource Key="PP.UserProfile.UserComments.Next" English="Next" Value="التالى" />
+<Resource Key="PP.UserProfile.UserComments.NoCommentsFound" English="No comments found." Value="لا توجد تعليقات." />
+<Resource Key="PP.PrintInvoice.Title" English="Print Invoice Order : {orderid}" Value="طباعة أمر فاتورة: {orderid}" />
+<Resource Key="PP.PrintInvoice.Description" English="Print invoice for your order." Value="طباعة فاتورة لطلبك." />
+<Resource Key="PP.PrintInvoice.OrderID" English="Order ID" Value="رقم الأمر" />
+<Resource Key="PP.PrintInvoice.Dated" English="Dated" Value="بتاريخ" />
+<Resource Key="PP.PrintInvoice.Status" English="Status" Value="الحالة" />
+<Resource Key="PP.PrintInvoice.CustomerInformation" English="Customer Information" Value="معلومات العميل" />
+<Resource Key="PP.PrintInvoice.PaymentDetails" English="Payment Details" Value="بيانات الدفع" />
+<Resource Key="PP.PrintInvoice.PaymentMethod" English="Payment Method" Value="طريقة الدفع او السداد" />
+<Resource Key="PP.PrintInvoice.TransactionID" English="Transaction ID" Value="رقم المعاملة" />
+<Resource Key="PP.PrintInvoice.Code" English="Code" Value="كود فريد" />
+<Resource Key="PP.PrintInvoice.Product" English="Product" Value="المنتج" />
+<Resource Key="PP.PrintInvoice.Price" English="Price" Value="السعر" />
+<Resource Key="PP.PrintInvoice.Quantity" English="Quantity" Value="كمية" />
+<Resource Key="PP.PrintInvoice.Total" English="Total" Value="مجموع" />
+<Resource Key="PP.PrintInvoice.PromoApplied" English="Promo Applied: {promo}" Value="الترويجي التطبيقية: {promo}" />
+<Resource Key="PP.PrintInvoice.TotalAmount" English="Total Amount" Value="المبلغ الإجمالي" />
+<Resource Key="PP.PrintInvoice.Discount" English="Discount" Value="خصم" />
+<Resource Key="PP.PrintInvoice.ShippingCharges" English="Shipping" Value="الشحن" />
+<Resource Key="PP.PrintInvoice.FinalAmount" English="Final Amount" Value="القيمة النهائية" />
+<Resource Key="PP.PrintInvoice.GuestOrder" English="Guest Order" Value="ترتيب الضيف" />
+<Resource Key="PP.PrintInvoice.NotAccessible" English="Sorry! you can not check this order details." Value="آسف! لا يمكنك التحقق من ذلك تفاصيل النظام." />
+<Resource Key="Dashboard.Dashboard" English="Dashboard" Value="لوحة القيادة" />
+<Resource Key="Dashboard.Commons.RecordNotSpecifiedInCurrentLanguage" English="This record is not specified in current language." Value="لم يتم تحديد هذا السجل في اللغة الحالية." />
+<Resource Key="Dashboard.Commons.ParentCategoryRecordNotSpecifiedInCurrentLanguage" English="Parent Category not specified in the current language." Value="الأم الفئة غير محددة في اللغة الحالية." />
+<Resource Key="Dashboard.Commons.CategoryRecordNotSpecifiedInCurrentLanguage" English="This category name is not specified in the current language." Value="لم يتم تحديد هذا الاسم الفئة في اللغة الحالية." />
+<Resource Key="Dashboard.Message.Success" English="Success!" Value="نجاح!" />
+<Resource Key="Dashboard.Message.Warning" English="Warning!" Value="تحذير!" />
+<Resource Key="Dashboard.Message.Error" English="Error!" Value="خطأ!" />
+<Resource Key="Dashboard.Message.Thanks" English="Thanks" Value="شكر" />
+<Resource Key="Dashboard.Message.GenericErrorMessage" English="An error has occurred." Value="حدث خطأ." />
+<Resource Key="Dashboard.Message.ConfirmDeleteWarning" English="Are you sure you want to delete this record?" Value="هل أنت متأكد أنك تريد حذف هذا السجل؟" />
+<Resource Key="Dashboard.Message.ConfirmDelete" English="Confirm" Value="تؤكد" />
+<Resource Key="Dashboard.Message.CancelDelete" English="Cancel" Value="إلغاء" />
+<Resource Key="Dashboard.Message.OK" English="OK" Value="حسنا" />
+<Resource Key="Dashboard.Pagination.Previous" English="Previous" Value="السابق" />
+<Resource Key="Dashboard.Pagination.Next" English="Next" Value="التالى" />
+<Resource Key="Dashboard.Menu.Home" English="Home" Value="الصفحة الرئيسية" />
+<Resource Key="Dashboard.Menu.Dashboard" English="Dashboard" Value="لوحة القيادة" />
+<Resource Key="Dashboard.Menu.Categories" English="Categories" Value="التصنيفات" />
+<Resource Key="Dashboard.Menu.Products" English="Products" Value="منتجات" />
+<Resource Key="Dashboard.Menu.Promos" English="Promos" Value="الملل" />
+<Resource Key="Dashboard.Menu.Orders" English="Orders" Value="الطلبات" />
+<Resource Key="Dashboard.Menu.Comments" English="Comments" Value="تعليقات" />
+<Resource Key="Dashboard.Menu.Users" English="Users" Value="المستخدمين" />
+<Resource Key="Dashboard.Menu.Roles" English="Roles" Value="الأدوار" />
+<Resource Key="Dashboard.Menu.Languages" English="Languages" Value="اللغات" />
+<Resource Key="Dashboard.Menu.Configurations" English="Configurations" Value="تكوينات" />
+<Resource Key="Dashboard.Menu.AllConfigurations" English="All Configurations" Value="جميع تكوينات" />
+<Resource Key="Dashboard.Menu.LanguageConfigurations" English="Language Configurations" Value="اللغة تكوينات" />
+<Resource Key="Dashboard.TopMenu.Profile" English="Profile" Value="الملف الشخصي" />
+<Resource Key="Dashboard.TopMenu.LogOff" English="Log off" Value="إطفاء" />
+<Resource Key="Dashboard.Dashboard.Hello" English="Hello {user}!" Value="مرحبا {user}!" />
+<Resource Key="Dashboard.Dashboard.WelcomeToDashboard" English="Welcome to {application} Dashboard. Below are a few demographics." Value="مرحبا بكم في {application} لوحة التحكم. وفيما يلي بعض العوامل الديموغرافية." />
+<Resource Key="Dashboard.Dashboard.TotalProducts" English="Total Products" Value="عدد المنتجات" />
+<Resource Key="Dashboard.Dashboard.TotalCategories" English="Total Categories" Value="عدد الأقسام" />
+<Resource Key="Dashboard.Dashboard.TotalOrders" English="Total Orders" Value="مجموع الطلبات" />
+<Resource Key="Dashboard.Dashboard.TotalComments" English="Total Comments" Value="مجموع التعليقات" />
+<Resource Key="Dashboard.Dashboard.NoOfUsers" English="No. Of Users" Value="عدد المستخدمين" />
+<Resource Key="Dashboard.Dashboard.NoOfRoles" English="No. of Roles" Value="عدد الأدوار" />
+<Resource Key="Dashboard.Categories.Title" English="Categories" Value="التصنيفات" />
+<Resource Key="Dashboard.Categories.Description" English="Categories Listing" Value="فئات قائمة" />
+<Resource Key="Dashboard.Categories.SearchPlaceholder" English="Search by Category Name" Value="البحث عن طريق اسم التصنيف" />
+<Resource Key="Dashboard.Categories.SelectParentCategory" English="Select Categories by Parent Category" Value="حدد فئات من المنتدى الرئيسي" />
+<Resource Key="Dashboard.Categories.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Categories.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Categories.CreateCategory" English="Create Category" Value="إنشاء الفئة" />
+<Resource Key="Dashboard.Categories.List.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Categories.List.ParentCategory" English="Parent Category" Value="القسم الرئيسي" />
+<Resource Key="Dashboard.Categories.List.Description" English="Description" Value="وصف" />
+<Resource Key="Dashboard.Categories.List.Products" English="Products" Value="منتجات" />
+<Resource Key="Dashboard.Categories.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Categories.List.FeaturedCategory" English="Featured Category" Value="الفئة المميز" />
+<Resource Key="Dashboard.Categories.List.Edit" English="Edit" Value="تعديل" />
+<Resource Key="Dashboard.Categories.List.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Categories.List.NoRecordFound" English="No Categories found." Value="لا توجد فئات." />
+<Resource Key="Dashboard.Categories.EditCategoryTitle" English="Edit Category" Value="تحرير الفئة" />
+<Resource Key="Dashboard.Categories.EditCategoryDescription" English="Edit category." Value="فئة تحرير." />
+<Resource Key="Dashboard.Categories.CreateCategoryTitle" English="Create Category" Value="إنشاء الفئة" />
+<Resource Key="Dashboard.Categories.CreateCategoryDescription" English="Create new category." Value="إنشاء فئة جديدة." />
+<Resource Key="Dashboard.Categories.Action.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Categories.Action.NamePlaceholder" English="Category Name" Value="اسم التصنيف" />
+<Resource Key="Dashboard.Categories.Action.Summary" English="Summary" Value="ملخص" />
+<Resource Key="Dashboard.Categories.Action.SummaryPlaceholder" English="Add category summary." Value="إضافة موجز الفئة." />
+<Resource Key="Dashboard.Categories.Action.Description" English="Description" Value="وصف" />
+<Resource Key="Dashboard.Categories.Action.DescriptionPlaceholder" English="Add category description." Value="إضافة فئة الوصف." />
+<Resource Key="Dashboard.Categories.Action.ParentCategory" English="Parent Category" Value="القسم الرئيسي" />
+<Resource Key="Dashboard.Categories.Action.ParentCategoryNone" English="None" Value="لا شيء" />
+<Resource Key="Dashboard.Categories.Action.URL" English="URL" Value="URL" />
+<Resource Key="Dashboard.Categories.Action.SelectPicture" English="Select Picture" Value="تحديد صورة" />
+<Resource Key="Dashboard.Categories.Action.Featured" English="Featured Category" Value="الفئة المميز" />
+<Resource Key="Dashboard.Categories.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.Categories.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Categories.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Categories.Cancel" English="Cancel" Value="إلغاء" />
+<Resource Key="Dashboard.Categories.Action.Validation.NameRequired" English="Category Name is required." Value="مطلوب اسم الفئة." />
+<Resource Key="Dashboard.Categories.Action.Validation.NameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Categories.Action.Validation.NameMaximumLength" English="Maximum Length is {length}." Value="أقصى طول هو {max}." />
+<Resource Key="Dashboard.Categories.Action.Validation.DescriptionMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Categories.Action.Validation.CategoryNotFound" English="Category not found." Value="فئة غير موجود." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategory" English="Unable to update Category." Value="غير قادر على تحديث الفئة." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToUpdateCategoryRecord" English="Unable to update Category Record." Value="غير قادر على تحديث الفئة السجل." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToCreateCategory" English="Unable to create Category." Value="غير قادر على إنشاء الفئة." />
+<Resource Key="Dashboard.Categories.Action.Validation.UnableToDeleteCategory" English="Unable to delete Category." Value="غير قادر على حذف الفئة." />
+<Resource Key="Dashboard.Products.Title" English="Products" Value="منتجات" />
+<Resource Key="Dashboard.Products.Description" English="Products Listing" Value="قائمة المنتجات" />
+<Resource Key="Dashboard.Products.SearchPlaceholder" English="Search Products by Name" Value="ابحث عن منتجات حسب الاسم" />
+<Resource Key="Dashboard.Products.SelectByCategory" English="Select By Category" Value="الاختيار عن طريق القطاع" />
+<Resource Key="Dashboard.Products.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Products.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Products.CreateProduct" English="Create" Value="خلق" />
+<Resource Key="Dashboard.Products.List.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Products.List.Category" English="Category" Value="الفئة" />
+<Resource Key="Dashboard.Products.List.Summary" English="Summary" Value="ملخص" />
+<Resource Key="Dashboard.Products.List.Price" English="Price" Value="السعر" />
+<Resource Key="Dashboard.Products.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Products.List.FeaturedProduct" English="Featured Product" Value="المنتج المميز" />
+<Resource Key="Dashboard.Products.Edit" English="Edit" Value="تعديل" />
+<Resource Key="Dashboard.Products.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Products.List.NoRecordFound" English="No Products found." Value="لا توجد منتجات." />
+<Resource Key="Dashboard.Products.EditProductTitle" English="Edit Product" Value="تحرير المنتج" />
+<Resource Key="Dashboard.Products.EditProductDescription" English="Edit Product." Value="تحرير المنتج." />
+<Resource Key="Dashboard.Products.CreateProductTitle" English="Create Product" Value="إنشاء المنتج" />
+<Resource Key="Dashboard.Products.CreateProductDescription" English="Create new product." Value="خلق منتج جديد." />
+<Resource Key="Dashboard.Products.Action.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Products.Action.NamePlaceholder" English="Product Name" Value="اسم المنتج" />
+<Resource Key="Dashboard.Products.Action.Summary" English="Summary" Value="ملخص" />
+<Resource Key="Dashboard.Products.Action.SummaryPlaceholder" English="Add Product Summary" Value="إضافة ملخص المنتج" />
+<Resource Key="Dashboard.Products.Action.Description" English="Description" Value="وصف" />
+<Resource Key="Dashboard.Products.Action.DescriptionPlaceholder" English="Add Product Description" Value="إضافة وصف المنتج" />
+<Resource Key="Dashboard.Products.Action.ProductSpecifications" English="Product Specifications" Value="مواصفات المنتج" />
+<Resource Key="Dashboard.Products.Action.SpecificationTitle" English="Specification Title" Value="مواصفات عنوان" />
+<Resource Key="Dashboard.Products.Action.SpecificationValue" English="Specification Value" Value="مواصفات القيمة" />
+<Resource Key="Dashboard.Products.Action.AddSpecification" English="Add Specification" Value="إضافة مواصفات" />
+<Resource Key="Dashboard.Products.Action.SpecificationAction" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Products.Action.SpecificationDelete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Products.Action.NoSpecifications" English="No Specifications." Value="لا المواصفات." />
+<Resource Key="Dashboard.Products.Action.Category" English="Category" Value="الفئة" />
+<Resource Key="Dashboard.Products.Action.Price" English="Price" Value="السعر" />
+<Resource Key="Dashboard.Products.Action.PricePlaceholder" English="Product Price" Value="سعر المنتج" />
+<Resource Key="Dashboard.Products.Action.SelectPictures" English="Select Pictures" Value="اختر صور" />
+<Resource Key="Dashboard.Products.Action.SetThumbnailImage" English="Set as Thumbnail Image" Value="إضافة إلى صورة مصغرة" />
+<Resource Key="Dashboard.Products.Action.RemovePicture" English="Remove Picture" Value="إزالة صورة" />
+<Resource Key="Dashboard.Products.Action.FeaturedProduct" English="Featured Product" Value="المنتج المميز" />
+<Resource Key="Dashboard.Products.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.Products.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Products.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Products.Cancel" English="Cancel" Value="إلغاء" />
+<Resource Key="Dashboard.Products.Action.Validation.NameRequired" English="Product Name is required." Value="مطلوب اسم المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.NameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.NameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.CategoryRequired" English="Select a Product Category." Value="إختر فئة المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryRequired" English="Product Summary is required." Value="مطلوب ملخص المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.SummaryMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.DescriptionRequired" English="Description is required." Value="مطلوب الوصف." />
+<Resource Key="Dashboard.Products.Action.Validation.DescriptionMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Products.Action.Validation.PriceRequired" English="Price is required." Value="مطلوب السعر." />
+<Resource Key="Dashboard.Products.Action.Validation.PriceRange" English="Price must be between {min} to {max}." Value="يجب أن يكون السعر بين {min} إلى {max}." />
+<Resource Key="Dashboard.Products.Action.Validation.ProductPicturesRequired" English="Please upload atleast one product picture." Value="يرجى تحميل أتلست الصورة منتج واحد." />
+<Resource Key="Dashboard.Products.Action.Validation.ProductNotFound" English="Product not Found." Value="الصنف غير موجود." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProduct" English="Unable to update Product." Value="غير قادر على تحديث المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToUpdateProductRecord" English="Unable to update Product Record." Value="غير قادر على تحديث سجل المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProduct" English="Unable to create Product." Value="غير قادر على إنشاء المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToCreateProductRecord" English="Unable to create Product Record." Value="غير قادر على إنشاء سجل المنتج." />
+<Resource Key="Dashboard.Products.Action.Validation.UnableToDeleteProduct" English="Unable to delete Product." Value="غير قادر على حذف المنتج." />
+<Resource Key="Dashboard.Promos.Title" English="Promos" Value="الملل" />
+<Resource Key="Dashboard.Promos.Description" English="Promos Listing Page." Value="الملل قائمة الصفحة." />
+<Resource Key="Dashboard.Promos.SearchPlaceholder" English="Search Promo" Value="البحث الترويجي" />
+<Resource Key="Dashboard.Promos.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Promos.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Promos.CreatePromo" English="Create Promo" Value="إنشاء الترويجي" />
+<Resource Key="Dashboard.Promos.List.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Promos.List.Code" English="Promo Code" Value="رمز ترويجي" />
+<Resource Key="Dashboard.Promos.List.PromoType" English="Promo Type" Value="الترويجي نوع" />
+<Resource Key="Dashboard.Promos.List.Value" English="Value" Value="القيمة" />
+<Resource Key="Dashboard.Promos.List.ValidTill" English="Valid Till" Value="صالح لغاية" />
+<Resource Key="Dashboard.Promos.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Promos.List.NoRecordFound" English="No promos found." Value= "لم يتم العثور على شفرات ترويجية." />
+<Resource Key="Dashboard.Promos.PromoTypes" English="Promo Types" Value="أنواع الترويجي" />
+<Resource Key="Dashboard.Promos.PromoTypes.Percentage" English="Percentage" Value="النسبة المئوية" />
+<Resource Key="Dashboard.Promos.PromoTypes.Amount" English="Amount" Value="كمية" />
+<Resource Key="Dashboard.Promos.Edit" English="Edit" Value="تعديل" />
+<Resource Key="Dashboard.Promos.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Promos.EditPromoTitle" English="Edit Promo" Value="تحرير الترويجي" />
+<Resource Key="Dashboard.Promos.EditPromoDescription" English="Edit Promo." Value="تحرير الترويجي." />
+<Resource Key="Dashboard.Promos.CreatePromoTitle" English="Create Promo" Value="إنشاء الترويجي" />
+<Resource Key="Dashboard.Promos.CreatePromoDescription" English="Create new promo." Value="إنشاء الترويجي الجديد." />
+<Resource Key="Dashboard.Promos.Action.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Promos.Action.NamePlaceholder" English="Add Promo Name" Value="إضافة اسم الترويجي" />
+<Resource Key="Dashboard.Promos.Action.Description" English="Description" Value="وصف" />
+<Resource Key="Dashboard.Promos.Action.DescriptionPlaceholder" English="Add description about promo." Value="إضافة وصف حول الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Code" English="Code" Value="الشفرة" />
+<Resource Key="Dashboard.Promos.Action.CodePlaceholder" English="Add Promo Code" Value="إضافة الرمز الترويجي" />
+<Resource Key="Dashboard.Promos.Action.PromoType" English="Promo Type" Value="الترويجي نوع" />
+<Resource Key="Dashboard.Promos.Action.AmountPromoDescription" English="Amount Promo Type will give discount of specified value as amount from total amount of order." Value="والمبلغ الترويجي نوع اعطاء خصم من القيمة المحددة كما المبلغ من المبلغ الإجمالي للنظام." />
+<Resource Key="Dashboard.Promos.Action.PercentagePromoDescription" English="Percentage Promo Type will give discount of specified value in percentage of total amount of order." Value="ونسبة الترويجي نوع اعطاء خصم من القيمة المحددة في النسبة المئوية للمبلغ الكلي للنظام." />
+<Resource Key="Dashboard.Promos.Action.Value" English="Value" Value="القيمة" />
+<Resource Key="Dashboard.Promos.Action.ValidTill" English="Valid Till" Value="صالح لغاية" />
+<Resource Key="Dashboard.Promos.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.Promos.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.Promos.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Promos.Cancel" English="Cancel" Value="إلغاء" />
+<Resource Key="Dashboard.Promos.Action.Validation.NameRequired" English="Name is required." Value="مطلوب اسم." />
+<Resource Key="Dashboard.Promos.Action.Validation.NameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.NameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.PromoTypeRequired" English="Please select Promo Type." Value="يرجى تحديد نوع الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Validation.DescriptionMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeRequired" English="Promo Code is required." Value="مطلوب الرمز الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Promos.Action.Validation.CodeMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.ValueRequired" English="Promo Value is required." Value="مطلوب قيمة الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Validation.ValueRange" English="Value must be between {min} to {max}." Value="يجب أن تكون قيمة بين {min} إلى {max}." />
+<Resource Key="Dashboard.Promos.Action.Validation.PromoNotFound" English="Promo not found." Value="الترويجي غير موجود." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToUpdatePromo" English="Unable to update Promo." Value="غير قادر على تحديث الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToCreatePromo" English="Unable to create Promo." Value="غير قادر على إنشاء الترويجي." />
+<Resource Key="Dashboard.Promos.Action.Validation.UnableToDeletePromo" English="Unable to delete Promo." Value="غير قادر على حذف الترويجي." />
+<Resource Key="Dashboard.Orders.Title" English="Orders" Value="الطلبات" />
+<Resource Key="Dashboard.Orders.Description" English="Orders Listing" Value="أوامر قائمة" />
+<Resource Key="Dashboard.Orders.SearchByUserIDPlaceholder" English="Search by User ID" Value="البحث عن طريق اسم العضو" />
+<Resource Key="Dashboard.Orders.SearchByOrderIDPlaceholder" English="Search by Order ID" Value="البحث عن طريق ترتيب ID" />
+<Resource Key="Dashboard.Orders.SearchByOrderStatus" English="Search by Order Status" Value="البحث عن طريق ترتيب أوضاع" />
+<Resource Key="Dashboard.Orders.OrderStatus" English="Order Status" Value="حالة الطلب" />
+<Resource Key="Dashboard.Orders.OrderStatus.Placed" English="Placed" Value="وضعت" />
+<Resource Key="Dashboard.Orders.OrderStatus.Processing" English="Processing" Value="معالجة" />
+<Resource Key="Dashboard.Orders.OrderStatus.Delivered" English="Delivered" Value="تم التوصيل" />
+<Resource Key="Dashboard.Orders.OrderStatus.Failed" English="Failed" Value="فشل" />
+<Resource Key="Dashboard.Orders.OrderStatus.Cancelled" English="Cancelled" Value="ألغيت" />
+<Resource Key="Dashboard.Orders.OrderStatus.OnHold" English="OnHold" Value="في الانتظار" />
+<Resource Key="Dashboard.Orders.OrderStatus.WaitingForPayment" English="WaitingForPayment" Value="في انتظار الدفع" />
+<Resource Key="Dashboard.Orders.OrderStatus.Refunded" English="Refunded" Value="ردها" />
+<Resource Key="Dashboard.Orders.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Orders.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Orders.List.OrderID" English="Order ID" Value="رقم التعريف الخاص بالطلب" />
+<Resource Key="Dashboard.Orders.List.PlacedOn" English="Placed On Date" Value="وضعت على تاريخ" />
+<Resource Key="Dashboard.Orders.List.OrderAmount" English="Order Amount" Value="كمية الطلب" />
+<Resource Key="Dashboard.Orders.List.PaymentMethod" English="Payment Method" Value="طريقة الدفع او السداد" />
+<Resource Key="Dashboard.Orders.List.Status" English="Status" Value="الحالة" />
+<Resource Key="Dashboard.Orders.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Orders.List.UpdatedOn" English="Updated On" Value="تحديث في" />
+<Resource Key="Dashboard.Orders.List.Details" English="Details" Value="تفاصيل" />
+<Resource Key="Dashboard.Orders.List.Track" English="Track" Value="مسار" />
+<Resource Key="Dashboard.Orders.List.Invoice" English="Invoice" Value="فاتورة" />
+<Resource Key="Dashboard.Orders.NoOrdersFound" English="No Orders found." Value="لم يتم العثور على أية طلبات." />
+<Resource Key="Dashboard.OrderDetails.Title" English="Orders" Value="الطلبات" />
+<Resource Key="Dashboard.OrderDetails.Description" English="Orders Listing" Value="أوامر قائمة" />
+<Resource Key="Dashboard.OrderDetails.PrintInvoice" English="Print Invoice" Value="فاتورة طباعة" />
+<Resource Key="Dashboard.OrderDetails.OrderStatus" English="Order Status" Value="حالة الطلب" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethod" English="Payment Method" Value="طريقة الدفع او السداد" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethods.CreditCard" English="Credit Card" Value="بطاقة الائتمان" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethods.PayPal" English="PayPal" Value="باي بال" />
+<Resource Key="Dashboard.OrderDetails.PaymentMethods.CashOnDelivery" English="Cash On Delivery" Value="الدفع عند الاستلام" />
+<Resource Key="Dashboard.OrderDetails.OrderTransactionID" English="Transaction ID" Value="رقم التحويل" />
+<Resource Key="Dashboard.OrderDetails.OrderProcessor.AuthorizeNet" English="Authorize.Net" Value="Authorize.Net" />
+<Resource Key="Dashboard.OrderDetails.OrderProcessor.PayPal" English="PayPal" Value="PayPal" />
+<Resource Key="Dashboard.OrderDetails.PlacedOn" English="Placed On Date" Value="وضعت على تاريخ" />
+<Resource Key="Dashboard.OrderDetails.UpdatedOn" English="Updated On" Value="تحديث في" />
+<Resource Key="Dashboard.OrderDetails.OrderID" English="Order ID" Value="رقم التعريف الخاص بالطلب" />
+<Resource Key="Dashboard.OrderDetails.OrderUniqueCode" English="Order Unique Code" Value="ترتيب مدونة فريدة من نوعها" />
+<Resource Key="Dashboard.OrderDetails.OrderDetails" English="Order Details" Value="تفاصيل الطلب" />
+<Resource Key="Dashboard.OrderDetails.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.OrderDetails.Price" English="Price" Value="السعر" />
+<Resource Key="Dashboard.OrderDetails.Quantity" English="Quantity" Value="كمية" />
+<Resource Key="Dashboard.OrderDetails.Total" English="Total" Value="مجموع" />
+<Resource Key="Dashboard.OrderDetails.TotalAmount" English="Total Amount" Value="المبلغ الإجمالي" />
+<Resource Key="Dashboard.OrderDetails.Discount" English="Discount" Value="خصم" />
+<Resource Key="Dashboard.OrderDetails.PromoApplied" English="Promo Applied: {promo}" Value="الترويجي التطبيقية: {promo}" />
+<Resource Key="Dashboard.OrderDetails.DeliveryCharges" English="Delivery Charges" Value="رسوم التوصيل" />
+<Resource Key="Dashboard.OrderDetails.CustomerDetails" English="Customer Details" Value="تفاصيل العميل" />
+<Resource Key="Dashboard.OrderDetails.FullName" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="Dashboard.OrderDetails.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="Dashboard.OrderDetails.PhoneNumber" English="Phone Number" Value="رقم الهاتف" />
+<Resource Key="Dashboard.OrderDetails.ShippingDetails" English="Shipping Details" Value="تفاصيل الشحن" />
+<Resource Key="Dashboard.OrderDetails.Country" English="Country" Value="بلد" />
+<Resource Key="Dashboard.OrderDetails.City" English="City" Value="مدينة" />
+<Resource Key="Dashboard.OrderDetails.Address" English="Address" Value="عنوان" />
+<Resource Key="Dashboard.OrderDetails.ZipCode" English="Zip Code" Value="الرمز البريدي" />
+<Resource Key="Dashboard.OrderDetails.OrderHistory" English="Order History" Value="تاريخ الطلب" />
+<Resource Key="Dashboard.OrderDetails.Note" English="Note" Value="ملحوظة" />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus" English="Update Status" Value="تحديث الحالة" />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteRequired" English="Note is required." Value="مطلوب المذكرة." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.NoteMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.OrderDetails.UpdateStatus.Validation.UnableToUpdateOrderStatus" English="Invalid Data. Unable to update order status." Value="بيانات غير صالحة. غير قادر على تحديث حالة الطلب." />
+<Resource Key="Dashboard.OrderDetails.GuestOrder" English="Guest Order" Value="ترتيب الضيوف" />
+<Resource Key="Dashboard.OrderDetails.SeeAllOrdersFromCustomer" English="See all orders from this customer." Value="شاهد جميع أوامر من هذا العميل." />
+<Resource Key="Dashboard.Comments.Title" English="Comments" Value="تعليقات" />
+<Resource Key="Dashboard.Comments.Description" English="Comments listing page." Value="تعليقات صفحة البيانات." />
+<Resource Key="Dashboard.Comments.SearchPlaceholder" English="Search in Comments" Value="بحث في تعليقات" />
+<Resource Key="Dashboard.Comments.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Comments.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Comments.CommentUserName" English="{user}" Value="{user}" />
+<Resource Key="Dashboard.Comments.CommentTimestamp" English="{datetime}" Value="{datetime}" />
+<Resource Key="Dashboard.Comments.DeleteComment" English="Delete Comment" Value="حذف تعليق" />
+<Resource Key="Dashboard.Comments.Action.Validation.NotAuthorizedToDeleteComment" English="You are not authorzed to delete this comment." Value="انك لم authorzed حذف هذا التعليق." />
+<Resource Key="Dashboard.Comments.Action.Validation.UnableToDeleteComment" English="Unable to delete comment." Value="غير قادر على حذف تعليق." />
+<Resource Key="Dashboard.Comments.List.NoRecordFound" English="No comments found." Value="لا توجد تعليقات." />
+<Resource Key="Dashboard.Users.Title" English="Users" Value="المستخدمين" />
+<Resource Key="Dashboard.Users.Description" English="Users listing page." Value="المستخدمين سرد الصفحة." />
+<Resource Key="Dashboard.Users.SearchPlaceholder" English="Search by Username or Email" Value="البحث عن طريق اسم المستخدم أو البريد الالكتروني" />
+<Resource Key="Dashboard.Users.SelectByRole" English="Select by Role" Value="الاختيار عن طريق دور" />
+<Resource Key="Dashboard.Users.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Users.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Users.List.RegisteredOn" English="Registered On" Value="مسجلة على" />
+<Resource Key="Dashboard.Users.List.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Users.List.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="Dashboard.Users.List.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="Dashboard.Users.List.Roles" English="Roles" Value="الأدوار" />
+<Resource Key="Dashboard.Users.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Users.List.MoreDetails" English="More Details" Value="المزيد من التفاصيل" />
+<Resource Key="Dashboard.Users.List.NoRecordFound" English="No users found." Value="لم يتم العثور على المستخدمين." />
+<Resource Key="Dashboard.UserDetails.Title" English="User Details" Value="بيانات المستخدم" />
+<Resource Key="Dashboard.UserDetails.Description" English="User details." Value="بيانات المستخدم." />
+<Resource Key="Dashboard.UserDetails.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="Dashboard.UserDetails.Location" English="Location" Value="موقعك" />
+<Resource Key="Dashboard.UserDetails.Info" English="Info" Value="معلومات" />
+<Resource Key="Dashboard.UserDetails.Roles" English="Roles" Value="الأدوار" />
+<Resource Key="Dashboard.UserDetails.Orders" English="Orders" Value="الطلبات" />
+<Resource Key="Dashboard.UserDetails.Comments" English="Comments" Value="تعليقات" />
+<Resource Key="Dashboard.UserDetails.NoUserFound" English="No User found." Value="لم يتم العثور على المستخدم." />
+<Resource Key="Dashboard.UserDetails.Info.FullName" English="Full Name" Value="الاسم الكامل" />
+<Resource Key="Dashboard.UserDetails.Info.PhoneNumber" English="Phone Number" Value="رقم الهاتف" />
+<Resource Key="Dashboard.UserDetails.Info.Country" English="Country" Value="بلد" />
+<Resource Key="Dashboard.UserDetails.Info.City" English="City" Value="مدينة" />
+<Resource Key="Dashboard.UserDetails.Info.Address" English="Address" Value="عنوان" />
+<Resource Key="Dashboard.UserDetails.Info.ZipCode" English="Zip Code" Value="الرمز البريدي" />
+<Resource Key="Dashboard.UserDetails.Info.Email" English="Email" Value="البريد الإلكتروني" />
+<Resource Key="Dashboard.UserDetails.Info.Username" English="Username" Value="اسم المستخدم" />
+<Resource Key="Dashboard.UserDetails.Info.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.UserDetails.Info.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameRequired" English="Full Name is required." Value="الإسم الكامل ضروري." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.FullNameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CountryRequired" English="Country is required." Value="الدولة مطلوبة." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.CityRequired" English="City is required." Value="مطلوب المدينة." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.AddressRequired" English="Address is required." Value="العنوان مطلوب." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.DataNotFormatted" English="Data not formatted." Value="البيانات غير مهيأ." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserNotFound" English="User not found." Value="المستخدم ليس موجود." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoUpdateInfo" English="Unable to update info." Value="غير قادر على تحديث المعلومات." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.InfoUpdated" English="Info Updated successfully." Value="معلومات التحديث بنجاح." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UnabletoDeleteUser" English="Unable to delete user." Value="غير قادر على حذف المستخدم." />
+<Resource Key="Dashboard.UserDetails.Info.Action.Validation.UserDeleted" English="User Deleted successfully." Value="العضو المحذوفة بنجاح." />
+<Resource Key="Dashboard.UserDetails.Roles.CurrentUserRoles" English="Current User Roles" Value="أدوار المستخدمين الحالية" />
+<Resource Key="Dashboard.UserDetails.Roles.RemoveUserRole" English="Remove Role" Value="إزالة دور" />
+<Resource Key="Dashboard.UserDetails.Roles.UserDoesntHaveRoles" English="User doesn’t have any roles." Value="لم يقم المستخدم أية أدوار." />
+<Resource Key="Dashboard.UserDetails.Roles.AssignNewRoles" English="Assign New Role" Value="دور تعيين جديد" />
+<Resource Key="Dashboard.UserDetails.Roles.SelectRole" English="Select Role" Value="حدد دور" />
+<Resource Key="Dashboard.UserDetails.Roles.AssignUserRole" English="Assign Role" Value="دور تعيين" />
+<Resource Key="Dashboard.UserDetails.Roles.Action.Validation.SelectValidRole" English="Please select a Role." Value="يرجى تحديد دور." />
+<Resource Key="Dashboard.UserDetails.Orders.SearchByOrderIDPlaceholder" English="Search by Order ID" Value="البحث عن طريق ترتيب ID" />
+<Resource Key="Dashboard.UserDetails.Orders.SelectByOrderStatus" English="Select by Order Status…" Value="الاختيار عن طريق ترتيب أوضاع ..." />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Placed" English="Placed" Value="وضعت" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Processing" English="Processing" Value="معالجة" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Delivered" English="Delivered" Value="تم التوصيل" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Failed" English="Failed" Value="فشل" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Cancelled" English="Cancelled" Value="ألغيت" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.OnHold" English="On Hold" Value="في الانتظار" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.WaitingForPayment" English="Waiting For Payment" Value="في انتظار الدفع" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderStatus.Refunded" English="Refunded" Value="ردها" />
+<Resource Key="Dashboard.UserDetails.Orders.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.UserDetails.Orders.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.UserDetails.Orders.PlacedOnDate" English="Placed On Date" Value="وضعت على تاريخ" />
+<Resource Key="Dashboard.UserDetails.Orders.OrderAmount" English="Order Amount" Value="كمية الطلب" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethod" English="Payment Method" Value="طريقة الدفع او السداد" />
+<Resource Key="Dashboard.UserDetails.Orders.Status" English="Status" Value="الحالة" />
+<Resource Key="Dashboard.UserDetails.Orders.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CreditCard" English="Credit Card" Value="بطاقة الائتمان" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.PayPal" English="PayPal" Value="باي بال" />
+<Resource Key="Dashboard.UserDetails.Orders.PaymentMethods.CashOnDelivery" English="Cash On Delivery" Value="الدفع عند الاستلام" />
+<Resource Key="Dashboard.UserDetails.Orders.UpdatedOn" English="Updated On" Value="تحديث في" />
+<Resource Key="Dashboard.UserDetails.Orders.Details" English="Details" Value="تفاصيل" />
+<Resource Key="Dashboard.UserDetails.Orders.Track" English="Track" Value="مسار" />
+<Resource Key="Dashboard.UserDetails.Orders.NoOrdersFound" English="No Orders found." Value="لم يتم العثور على أية طلبات." />
+<Resource Key="Dashboard.UserDetails.Comments.SearchCommentsPlaceholder" English="Search in Comments" Value="بحث في تعليقات" />
+<Resource Key="Dashboard.UserDetails.Comments.SearchComments" English="Search" Value="بحث" />
+<Resource Key="Dashboard.UserDetails.Comments.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.UserDetails.Comments.CommentUserName" English="{user}" Value="{user}" />
+<Resource Key="Dashboard.UserDetails.Comments.CommentTimestamp" English="{datetime}" Value="{datetime}" />
+<Resource Key="Dashboard.UserDetails.Comments.DeleteComment" English="Delete Comment" Value="حذف تعليق" />
+<Resource Key="Dashboard.UserDetails.Comments.NoComments" English="No comments found." Value="لا توجد تعليقات." />
+<Resource Key="Dashboard.Roles.Title" English="Roles" Value="الأدوار" />
+<Resource Key="Dashboard.Roles.Description" English="Roles Listing." Value="الأدوار قائمة." />
+<Resource Key="Dashboard.Roles.SearchPlaceholder" English="Search Role" Value="بحث دور" />
+<Resource Key="Dashboard.Roles.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Roles.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Roles.CreateRole" English="Create Role" Value="إنشاء دور" />
+<Resource Key="Dashboard.Roles.CreateNewRole" English="Create New Role" Value="إنشاء دور جديد" />
+<Resource Key="Dashboard.Roles.Create.Name" English="Role Name" Value="اسم الدور" />
+<Resource Key="Dashboard.Roles.Create.NamePlaceholder" English="Add Role Name" Value="إضافة اسم الدور" />
+<Resource Key="Dashboard.Roles.Close" English="Close" Value="قريب" />
+<Resource Key="Dashboard.Roles.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Roles.Save.Validations.NameRequired" English="Role Name is required." Value="مطلوب اسم الدور." />
+<Resource Key="Dashboard.Roles.Save.Validations.NameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Roles.Save.Validations.NameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Roles.Role" English="Role" Value="وظيفة" />
+<Resource Key="Dashboard.Roles.Users" English="Users" Value="المستخدمين" />
+<Resource Key="Dashboard.Roles.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Roles.MoreDetails" English="More Details" Value="المزيد من التفاصيل" />
+<Resource Key="Dashboard.Roles.NoRolesFound" English="No Roles found." Value="لا توجد أدوار." />
+<Resource Key="Dashboard.RoleDetails.Title" English="Role Details" Value="تفاصيل الدور" />
+<Resource Key="Dashboard.RoleDetails.Description" English="Role Details" Value="تفاصيل الدور" />
+<Resource Key="Dashboard.RoleDetails.Info" English="Info" Value="معلومات" />
+<Resource Key="Dashboard.RoleDetails.Users" English="Users" Value="المستخدمين" />
+<Resource Key="Dashboard.RoleDetails.Info.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.RoleDetails.Info.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.RoleDetails.Info.Delete" English="Delete" Value="حذف" />
+<Resource Key="Dashboard.RoleDetails.Info.AdministratorRoleNotification" English="This role is not allowed to be updated or deleted because it is being used for authorization." Value="لا يسمح هذا الدور إلى تحديث أو حذف لأنه يتم استخدامه للحصول على إذن." />
+<Resource Key="Dashboard.RoleDetails.Info.RoleInfoUpdated" English="Role info updated." Value="المعلومات دور تجديد." />
+<Resource Key="Dashboard.RoleDetails.Users.UsersWithRole" English="Users with this Role" Value="المستخدمين مع هذا دور" />
+<Resource Key="Dashboard.RoleDetails.Users.MoreDetails" English="More Details" Value="المزيد من التفاصيل" />
+<Resource Key="Dashboard.RoleDetails.Users.NoUsersWithRole" English="This role doesnt have any users." Value="هذا الدور لا يتلقى أي المستخدمين." />
+<Resource Key="Dashboard.Configurations.Title" English="Configurations" Value="تكوينات" />
+<Resource Key="Dashboard.Configurations.Description" English="Configurations listing." Value="تكوينات القيد." />
+<Resource Key="Dashboard.Configurations.SearchPlaceholder" English="Search Configurations" Value="البحث تكوينات" />
+<Resource Key="Dashboard.Configurations.SelectByConfigurationType" English="Select by Configuration Type" Value="الاختيار عن طريق نوع التكوين" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Site" English="Site" Value="موقع" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Sliders" English="Slider" Value="المنزلق" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Promotions" English="Promotions" Value="الترقيات" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.SocialLinks" English="Social Links" Value="روابط اجتماعية" />
+<Resource Key="Dashboard.Configurations.ConfigurationTypes.Other" English="Other" Value="آخر" />
+<Resource Key="Dashboard.Configurations.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Configurations.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Configurations.List.Key" English="Key" Value="مفتاح" />
+<Resource Key="Dashboard.Configurations.List.Value" English="Value" Value="القيمة" />
+<Resource Key="Dashboard.Configurations.List.ConfigurationType" English="Configuration Type" Value="نوع التكوين" />
+<Resource Key="Dashboard.Configurations.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Configurations.List.Edit" English="Edit" Value="تعديل" />
+<Resource Key="Dashboard.Configurations.NoConfigurationFound" English="No Configuration found" Value="لا توجد تكوين" />
+<Resource Key="Dashboard.Configurations.EditConfiguration" English="Edit Configuration" Value="تحرير التكوين" />
+<Resource Key="Dashboard.Configurations.UnableToUpdateConfigurations" English="Unable to update configurations." Value="غير قادر على تحديث التشكيلات." />
+<Resource Key="Dashboard.Configurations.Edit.Value" English="Value" Value="القيمة" />
+<Resource Key="Dashboard.Configurations.Edit.SliderPicture" English="Slider Picture" Value="صورة المنزلق" />
+<Resource Key="Dashboard.Configurations.Edit.Heading" English="Heading" Value="عنوان" />
+<Resource Key="Dashboard.Configurations.Edit.Paragraph" English="Paragraph" Value="فقرة" />
+<Resource Key="Dashboard.Configurations.Edit.LinkURL" English="Link URL" Value="URL رابط" />
+<Resource Key="Dashboard.Configurations.Edit.Close" English="Close" Value="قريب" />
+<Resource Key="Dashboard.Configurations.Edit.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Configurations.Edit.Validation.ConfigurationValueRequited" English="Configuration Value is required." Value="مطلوب قيمة التكوين." />
+<Resource Key="Dashboard.Configurations.ConfigurationNotFound" English="Configuration not found." Value="التكوين غير موجود." />
+<Resource Key="Dashboard.Languages.Title" English="Languages" Value="اللغات" />
+<Resource Key="Dashboard.Languages.Description" English="Languages listing" Value="اللغات الإدراج" />
+<Resource Key="Dashboard.Languages.SearchPlaceholder" English="Search Languages" Value="البحث اللغات" />
+<Resource Key="Dashboard.Languages.Search" English="Search" Value="بحث" />
+<Resource Key="Dashboard.Languages.Reset" English="Reset" Value="إعادة تعيين" />
+<Resource Key="Dashboard.Languages.AddLanguage" English="Add Language" Value="إضافة لغة" />
+<Resource Key="Dashboard.Languages.List.Icon" English="Icon" Value="أيقونة" />
+<Resource Key="Dashboard.Languages.List.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Languages.List.ShortCode" English="Short Code" Value="رمز قصير" />
+<Resource Key="Dashboard.Languages.List.Status" English="Status" Value="الحالة" />
+<Resource Key="Dashboard.Languages.List.Actions" English="Actions" Value="أجراءات" />
+<Resource Key="Dashboard.Languages.DefaultSiteLanguage" English="Default Site Language" Value="افتراضي لغة الموقع" />
+<Resource Key="Dashboard.Languages.List.Enabled" English="Enabled" Value="تمكين" />
+<Resource Key="Dashboard.Languages.List.Disabled" English="Disabled" Value="معاق" />
+<Resource Key="Dashboard.Languages.List.Edit" English="Edit" Value="تعديل" />
+<Resource Key="Dashboard.Languages.List.Disable" English="Disable" Value="تعطيل" />
+<Resource Key="Dashboard.Languages.List.Enable" English="Enable" Value="ممكن" />
+<Resource Key="Dashboard.Languages.ConfirmDisableWarning" English="Are you sure you want to disable this language?" Value="هل أنت متأكد أنك تريد تعطيل هذه اللغة؟" />
+<Resource Key="Dashboard.Languages.ConfirmDisable" English="Yes, disable it!" Value="نعم، تعطيله!" />
+<Resource Key="Dashboard.Languages.ConfirmDisableCancel" English="No, Dont disable." Value="لا، لا أميل تعطيل." />
+<Resource Key="Dashboard.Languages.List.NoLanguagesFound" English="No Languages found." Value="لا توجد لغات." />
+<Resource Key="Dashboard.Languages.EditLangaugeTitle" English="Edit Language" Value="تحرير اللغة" />
+<Resource Key="Dashboard.Languages.EditLanguageDescription" English="Edit Language" Value="تحرير اللغة" />
+<Resource Key="Dashboard.Languages.CreateLanguageTitle" English="Create Language" Value="خلق لغة" />
+<Resource Key="Dashboard.Languages.CreateLanguageDescription" English="Create New Language" Value="خلق لغة جديدة" />
+<Resource Key="Dashboard.Languages.Action.Name" English="Name" Value="اسم" />
+<Resource Key="Dashboard.Languages.Action.ShortCode" English="Short Code" Value="رمز قصير" />
+<Resource Key="Dashboard.Languages.Action.Enabled" English="Enabled" Value="تمكين" />
+<Resource Key="Dashboard.Languages.Action.MakeDefault" English="Make Default Language" Value="جعل اللغة الافتراضية" />
+<Resource Key="Dashboard.Languages.Action.IsRTL" English="Is RTL" Value="غير RTL" />
+<Resource Key="Dashboard.Languages.Action.Icon" English="Icon" Value="أيقونة" />
+<Resource Key="Dashboard.Languages.Action.SelectLanguageIcon" English="Select Language Icon" Value="اختر اللغة أيقونة" />
+<Resource Key="Dashboard.Languages.Action.SearchForIcon" English="Search for Icon" Value="البحث عن أيقونة" />
+<Resource Key="Dashboard.Languages.Action.SearchIconPlaceholder" English="Search with Country Short Name i.e US or GB" Value="بحث مع البلد قصيرة اسم أي بمعنى الولايات المتحدة أو GB" />
+<Resource Key="Dashboard.Languages.Action.Update" English="Update" Value="تحديث" />
+<Resource Key="Dashboard.Languages.Action.Disable" English="Disable" Value="تعطيل" />
+<Resource Key="Dashboard.Languages.Action.Enable" English="Enable" Value="ممكن" />
+<Resource Key="Dashboard.Languages.Action.Save" English="Save" Value="حفظ" />
+<Resource Key="Dashboard.Languages.Action.Cancel" English="Cancel" Value="إلغاء" />
+<Resource Key="Dashboard.Languages.Action.Validation.NameRequired" English="Name is required." Value="مطلوب اسم." />
+<Resource Key="Dashboard.Languages.Action.Validation.NameMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Languages.Action.Validation.NameMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeRequired" English="Short Code is required." Value="مطلوب كود قصيرة." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMinimumLength" English="Minimum Length is {min}." Value="الحد الأدنى طول هو {min}." />
+<Resource Key="Dashboard.Languages.Action.Validation.ShortCodeMaximumLength" English="Maximum Length is {max}." Value="الحد الأقصى للطول هو {max}." />
+<Resource Key="Dashboard.Languages.Action.ImportResources" English="Import Resources" Value="مصادر استيراد" />
+<Resource Key="Dashboard.Languages.Action.ChooseFile" English="Choose File" Value="اختر ملف" />
+<Resource Key="Dashboard.Languages.Action.Import" English="Import" Value="استيراد" />
+<Resource Key="Dashboard.Languages.Action.ExportResources" English="Export Resources" Value="الموارد تصدير" />
+<Resource Key="Dashboard.Languages.Action.ExportLanguageResources" English="Export Language Resources" Value="الموارد اللغة التصدير" />
+<Resource Key="Dashboard.Languages.Action.Export" English="Export" Value="تصدير" />
+<Resource Key="Dashboard.Languages.Action.ExportNoResourcesWarning" English="This language doesn't have any resources. Please import the language pack." Value="لم يكن لديك هذه اللغة أي موارد. يرجى استيراد حزمة اللغة." />
+<Resource Key="Dashboard.Languages.Action.ResourcesImportedSuccess" English="Resources have been imported successfully." Value="تم استيرادها الموارد بنجاح." />
+<Resource Key="Dashboard.Languages.Action.ResourcesExportingWarning" English="Preparing resource file can take some time. Please wait while the system generate the download file." Value="يمكن إعداد ملف المورد يستغرق بعض الوقت. الرجاء الانتظار بينما يقوم النظام بتوليد ملف التحميل." />
+<Resource Key="Dashboard.Languages.Action.Validation.SelectFileToUpload" English="Please select a file to upload." Value="الرجاء اختيار الملف المراد تحميله." />
+<Resource Key="Dashboard.Languages.Action.Validation.SelectValidFileToUpload" English="Please upload a file with correct format." Value="يرجى تحميل الملف مع الشكل الصحيح." />
+<Resource Key="Dashboard.Languages.Action.Validation.LanguageNotFound" English="Language not found." Value="لغة غير موجود." />
+<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageIsMust" English="There must be a default language. Please set another language as Default and then update this language." Value="يجب أن تكون هناك لغة افتراضية. يرجى تحديد لغة أخرى كما الافتراضي ثم قم بتحديث هذه اللغة." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToUpdateLanguage" English="Unable to update Language." Value="غير قادر على تحديث اللغة." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToCreateLanguage" English="Unable to create Language." Value="غير قادر على خلق لغة." />
+<Resource Key="Dashboard.Languages.Action.Validation.DefaultLanguageCantBeDisabled" English="The default language can not be made disabled." Value="لا يمكن أن تكون اللغة الافتراضية المعوقين." />
+<Resource Key="Dashboard.Languages.Action.Validation.NoResourcesInFile" English="No Resources found in the file." Value="لا توجد موارد في الملف." />
+<Resource Key="Dashboard.Languages.Action.Validation.UnableToImportResources" English="Unable to import resources." Value="غير قادر على الموارد الاستيراد." />
+</Language>
